@@ -2,39 +2,39 @@ let x =prompt("Enter your birthdate month", 1)
 
 switch(x){
     case "1":
-        alert("January");
+        document.write("January");
         break;
     case "2":
-        alert("Febreuary");
+        document.write("Febreuary");
         break;    
     case "3":
-        alert("March");
+        document.write("March");
         break; 
     case "4":
-        alert("April");
+        document.write("April");
         break;
     case "5":
-        alert("May");
+        document.write("May");
         break;   
     case "6":
-        alert("June");
+        document.write("June");
         break;
     case "7":
-        alert("July");
+        document.write("July");
         break;
     case "8":
-        alert("August");
+        document.write("August");
         break; 
     case "9":
-        alert("September");
+        document.write("September");
         break; 
     case "10":
-        alert("October");
+        document.write("October");
         break;
     case "11":
-        alert("November");
+        document.write("November");
         break;
     case "12":
-        alert("December");
+        document.write("December");
         break;                          
 }

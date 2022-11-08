@@ -1,0 +1,9 @@
+document.getElementById("yellow").innerHTML="Hello World!";
+document.getElementById("yellow").style.width="30%";
+document.getElementById("yellow").style.height="60px";
+document.getElementById("yellow").style.border="solid 2px black";
+document.getElementById("yellow").style.fontSize="40px";
+document.getElementById("yellow").style.backgroundColor="yellow";
+document.getElementById("yellow").style.textAlign="center";
+document.getElementById("yellow").style.fontWeight="bold";
+document.getElementById("yellow").style.paddingTop="10px";

@@ -1,4 +1,3 @@
-
 function LargestNumber(x, y){	
     if((x >y)){
         document.write(`the two numbers are: ${x} and ${y}, and the largest number is ${x}`)

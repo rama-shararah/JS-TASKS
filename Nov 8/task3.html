@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="select" onchange="myfun()">
+        <option value="arial">Arial</option>
+        <option value="times new roman">Times New Roman</option>
+        <option value="georgia">Georgia</option>
+        <option value="fantasy">fantasy</option>
+    </select>
+    
+
+    <select id="select2" onchange="myfun2()">
+        <option value="10pt">10pt</option>
+        <option value="15pt">15pt</option>
+        <option value="20pt">20pt</option>
+        <option value="25pt">25pt</option>
+    </select>
+
+    <label for="italic" >Italic</label>
+    <input type="checkbox" id="italic" onclick="myfun3()">
+
+    <label for="bold" >Bold</label>
+    <input type="checkbox" id="bold" onclick="myfun4()">
+
+    <label for="underline" >Underline</label>
+    <input type="checkbox" id="underline" onclick="myfun5()">
+    
+
+
+    <br><br>
+    <div id="con" style="width:50% ; height: 100px; border: 2px solid black;" >The quick brown fox jumps over the lazy dog</div>
+    
+    
+
+
+
+    <script src="task3.js"></script>
+</body>
+</html>

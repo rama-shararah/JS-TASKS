@@ -1,10 +1,10 @@
 function isOdd(x){
     if(x%2==0){
-        document.write("false");
+        document.write("The number is even :false");
 
     }
     else{
-        document.write("true");
+        document.write("The number is odd :true");
 
     }
 }

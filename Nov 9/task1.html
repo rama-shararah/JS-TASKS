@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv{
+            display: none;
+            background-color: pink;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form style="display: inline-block;">
+        <fieldset>
+            <legend>Enter Your Information</legend>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" >
+            <br>
+    
+            <label for="age">Your age</label>&emsp13;&emsp13;&emsp13;
+            <input type="text" id="age">
+            <br>
+    
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label><br>
+    
+            <br>
+    
+            <label for="des">Brief description</label><br>
+            <textarea id="des"></textarea>
+            <br>
+            <br>
+    
+            <label>Programming Languges</label>
+            <label for="Javascript">Javascript</label>
+            <input type="checkbox" id="Javascript">
+            <label for="python">python</label>
+            <input type="checkbox" id="python">
+            <label for="c#">c#</label>
+            <input type="checkbox" id="c#">
+            <br>
+            <br>
+    
+            <input type="button" value="submit" onclick="myfun()">
+        </fieldset>
+        <br>
+        <br>
+
+        <div id="mydiv">
+            <h3 style="text-align: center;">User Information</h3>
+            <p id="p1">Name:</p>
+            <p id="p2">Age:</p>
+            <p id="p3">Gender:</p>
+            <p id="p4">Brief description:</p>
+            <p id="p5">Programming Languges:</p>
+            
+        </div>
+
+
+        
+    </form>
+
+
+<script src="task1.js"></script>
+</body>
+</html>
